@@ -1,0 +1,19 @@
+# Security: NEVER commit your API keys (OpenAI, LangChain, etc.)
+.env
+
+# Python: Ignore compiled files and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# LangChain specific: Ignore local logs or LangGraph API state
+.langgraph_api/
+langchain.log
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
