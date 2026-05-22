@@ -1,0 +1,11 @@
+langchain
+langchain-core
+langchain_community
+langchain-huggingface
+transformers
+huggingface-hub
+
+python-dotenv
+
+numpy
+scikit-learn
