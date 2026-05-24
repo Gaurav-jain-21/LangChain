@@ -56,7 +56,7 @@ rag_chain = (
     | StrOutputParser()
 )
 
-question = "What is the main topic of this document?"
+question = input("what you want to ask: ")
 response = rag_chain.invoke(question)
 
 print(response)
